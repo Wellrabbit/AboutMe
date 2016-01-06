@@ -22,5 +22,9 @@ class BoondocksViewController : UIViewController
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func ToHome(sender: UIButton) {
+        performSegueWithIdentifier("To Home", sender: sender)
+        
+    }
 
 }

@@ -20,10 +20,16 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PB2-bC-pFn">
                                 <rect key="frame" x="277" y="285" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="toBoondocks:" destination="y10-iZ-wgs" eventType="touchUpInside" id="37J-qK-Xv9"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.28144015550000001" green="1" blue="0.42207749459999999" alpha="0.73999999999999999" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <segue destination="thI-ZV-Qyn" kind="presentation" identifier="To Boondocks" id="RoR-tp-yhb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1We-oZ-w2d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -44,10 +50,16 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tmd-6L-flv">
                                 <rect key="frame" x="277" y="285" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="ChangetoBorderlands:" destination="hmX-uW-feq" eventType="touchUpInside" id="Wkn-EX-iWN"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.89668823590268365" blue="0.28126663456975143" alpha="0.67000000000000004" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <segue destination="y10-iZ-wgs" kind="presentation" identifier="To BorderLands" id="yLE-cu-hmA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ben-QC-nBc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -68,14 +80,21 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hLC-FJ-i7q">
                                 <rect key="frame" x="277" y="285" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="goToRamsay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3g5-AF-3x6"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.29460181164422439" blue="0.0" alpha="0.87" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="aboutMeToRamsayButton" destination="hLC-FJ-i7q" id="WWa-eA-Vgl"/>
+                        <segue destination="hmX-uW-feq" kind="presentation" identifier="To Gordan Ramsay" id="HEO-s0-3S1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-155" y="763"/>
+            <point key="canvasLocation" x="-159" y="783"/>
         </scene>
         <!--Boondocks-->
         <scene sceneID="Jj2-xX-xkZ">
@@ -92,10 +111,18 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F2b-ZW-gHm">
                                 <rect key="frame" x="277" y="285" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="ToHome:" destination="thI-ZV-Qyn" eventType="touchUpInside" id="yBc-4M-2HV"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="0.56000000000000005" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="popoverPresentation" identifier="To Home" id="pXQ-mY-4nO">
+                            <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                        </segue>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RnM-MD-71A" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
