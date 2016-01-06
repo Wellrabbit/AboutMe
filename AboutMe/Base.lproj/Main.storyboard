@@ -8,7 +8,7 @@
         <!--Borderlands-->
         <scene sceneID="r1U-gI-9iO">
             <objects>
-                <viewController title="Borderlands" id="y10-iZ-wgs" sceneMemberID="viewController">
+                <viewController title="Borderlands" id="y10-iZ-wgs" customClass="BorderlandsViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ton-oF-cVG"/>
                         <viewControllerLayoutGuide type="bottom" id="btg-B1-xSc"/>
@@ -32,7 +32,7 @@
         <!--Gordon Ramsay-->
         <scene sceneID="9V3-Ag-9Sn">
             <objects>
-                <viewController title="Gordon Ramsay" id="hmX-uW-feq" sceneMemberID="viewController">
+                <viewController title="Gordon Ramsay" id="hmX-uW-feq" customClass="GordonRamsayViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xdO-B9-KE5"/>
                         <viewControllerLayoutGuide type="bottom" id="CZV-hg-UTl"/>
@@ -80,7 +80,7 @@
         <!--Boondocks-->
         <scene sceneID="Jj2-xX-xkZ">
             <objects>
-                <viewController title="Boondocks" id="thI-ZV-Qyn" sceneMemberID="viewController">
+                <viewController title="Boondocks" id="thI-ZV-Qyn" customClass="BoondocksViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0LP-NN-Ckh"/>
                         <viewControllerLayoutGuide type="bottom" id="tep-qU-lS7"/>

@@ -13,6 +13,9 @@
 		F1766ED01C3D9A4D00D0A958 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1766ECF1C3D9A4D00D0A958 /* Assets.xcassets */; };
 		F1766ED31C3D9A4D00D0A958 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1766ED11C3D9A4D00D0A958 /* LaunchScreen.storyboard */; };
 		F1766EDE1C3D9A4D00D0A958 /* AboutMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1766EDD1C3D9A4D00D0A958 /* AboutMeTests.swift */; };
+		F1766EEB1C3D9E9700D0A958 /* BoondocksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1766EEA1C3D9E9700D0A958 /* BoondocksViewController.swift */; };
+		F1766EED1C3D9EB300D0A958 /* GordanRamsayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1766EEC1C3D9EB300D0A958 /* GordanRamsayViewController.swift */; };
+		F1766EEF1C3D9EC500D0A958 /* BorderlandsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1766EEE1C3D9EC500D0A958 /* BorderlandsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		F1766ED91C3D9A4D00D0A958 /* AboutMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AboutMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1766EDD1C3D9A4D00D0A958 /* AboutMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeTests.swift; sourceTree = "<group>"; };
 		F1766EDF1C3D9A4D00D0A958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1766EEA1C3D9E9700D0A958 /* BoondocksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoondocksViewController.swift; sourceTree = "<group>"; };
+		F1766EEC1C3D9EB300D0A958 /* GordanRamsayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GordanRamsayViewController.swift; sourceTree = "<group>"; };
+		F1766EEE1C3D9EC500D0A958 /* BorderlandsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderlandsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			children = (
 				F1766EC81C3D9A4D00D0A958 /* AppDelegate.swift */,
 				F1766ECA1C3D9A4D00D0A958 /* ViewController.swift */,
+				F1766EEA1C3D9E9700D0A958 /* BoondocksViewController.swift */,
+				F1766EEC1C3D9EB300D0A958 /* GordanRamsayViewController.swift */,
+				F1766EEE1C3D9EC500D0A958 /* BorderlandsViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -213,8 +222,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1766EED1C3D9EB300D0A958 /* GordanRamsayViewController.swift in Sources */,
 				F1766ECB1C3D9A4D00D0A958 /* ViewController.swift in Sources */,
 				F1766EC91C3D9A4D00D0A958 /* AppDelegate.swift in Sources */,
+				F1766EEB1C3D9E9700D0A958 /* BoondocksViewController.swift in Sources */,
+				F1766EEF1C3D9EC500D0A958 /* BorderlandsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +416,7 @@
 				F1766EE41C3D9A4D00D0A958 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1766EE51C3D9A4D00D0A958 /* Build configuration list for PBXNativeTarget "AboutMeTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +425,7 @@
 				F1766EE71C3D9A4D00D0A958 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
