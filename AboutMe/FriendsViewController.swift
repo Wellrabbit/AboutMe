@@ -1,17 +1,16 @@
 //
-//  BorderlandsViewController.swift
+//  FriendsViewController.swift
 //  AboutMe
 //
-//  Created by Orton, Emily on 1/6/16.
+//  Created by Orton, Emily on 1/8/16.
 //  Copyright © 2016 CTEC. All rights reserved.
 //
 
 import Foundation
 import UIKit
 
-class BorderlandsViewController : UIViewController
+class FriendsViewController : UIViewController
 {
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -22,9 +21,11 @@ class BorderlandsViewController : UIViewController
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func toBoondocks(sender: UIButton)
+    
+    @IBAction func toHome(sender: UIButton)
     {
-        performSegueWithIdentifier("To Boondocks", sender: sender)
+        performSegueWithIdentifier("to Home", sender: sender)
     }
+    
 
 }

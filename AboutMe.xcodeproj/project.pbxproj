@@ -16,6 +16,7 @@
 		F1766EEB1C3D9E9700D0A958 /* BoondocksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1766EEA1C3D9E9700D0A958 /* BoondocksViewController.swift */; };
 		F1766EED1C3D9EB300D0A958 /* GordanRamsayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1766EEC1C3D9EB300D0A958 /* GordanRamsayViewController.swift */; };
 		F1766EEF1C3D9EC500D0A958 /* BorderlandsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1766EEE1C3D9EC500D0A958 /* BorderlandsViewController.swift */; };
+		F1CE55351C403F7C00D6FB32 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CE55341C403F7C00D6FB32 /* FriendsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		F1766EEA1C3D9E9700D0A958 /* BoondocksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoondocksViewController.swift; sourceTree = "<group>"; };
 		F1766EEC1C3D9EB300D0A958 /* GordanRamsayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GordanRamsayViewController.swift; sourceTree = "<group>"; };
 		F1766EEE1C3D9EC500D0A958 /* BorderlandsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderlandsViewController.swift; sourceTree = "<group>"; };
+		F1CE55341C403F7C00D6FB32 /* FriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				F1766EEA1C3D9E9700D0A958 /* BoondocksViewController.swift */,
 				F1766EEC1C3D9EB300D0A958 /* GordanRamsayViewController.swift */,
 				F1766EEE1C3D9EC500D0A958 /* BorderlandsViewController.swift */,
+				F1CE55341C403F7C00D6FB32 /* FriendsViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 				F1766ECB1C3D9A4D00D0A958 /* ViewController.swift in Sources */,
 				F1766EC91C3D9A4D00D0A958 /* AppDelegate.swift in Sources */,
 				F1766EEB1C3D9E9700D0A958 /* BoondocksViewController.swift in Sources */,
+				F1CE55351C403F7C00D6FB32 /* FriendsViewController.swift in Sources */,
 				F1766EEF1C3D9EC500D0A958 /* BorderlandsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

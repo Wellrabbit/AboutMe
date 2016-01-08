@@ -18,22 +18,42 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PB2-bC-pFn">
-                                <rect key="frame" x="277" y="285" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="172" y="285" width="256" height="30"/>
+                                <state key="normal" title="Bord(er) yet {hue hue} Keep Going"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="79" y="295" width="256" height="30"/>
+                                </variation>
                                 <connections>
                                     <action selector="toBoondocks:" destination="y10-iZ-wgs" eventType="touchUpInside" id="37J-qK-Xv9"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="borderlands" translatesAutoresizingMaskIntoConstraints="NO" id="b1h-tH-nQx">
+                                <rect key="frame" x="123" y="378" width="319" height="150"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="48" y="394" width="319" height="150"/>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PBf-df-OJo">
+                                <rect key="frame" x="172" y="69" width="301" height="165"/>
+                                <string key="text">Borderlands is my favorite video game series. The story line details the happenings on pandora a planet full of bandits and loot. You goal is to claim the biggest loot of all the vault but is it really what it seems?</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="57" y="72" width="301" height="165"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.28144015550000001" green="1" blue="0.42207749459999999" alpha="0.73999999999999999" colorSpace="calibratedRGB"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <segue destination="thI-ZV-Qyn" kind="presentation" identifier="To Boondocks" id="RoR-tp-yhb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1We-oZ-w2d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="552" y="-4"/>
+            <point key="canvasLocation" x="319" y="199.5"/>
         </scene>
         <!--Gordon Ramsay-->
         <scene sceneID="9V3-Ag-9Sn">
@@ -48,22 +68,42 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tmd-6L-flv">
-                                <rect key="frame" x="277" y="285" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="210" y="285" width="180" height="30"/>
+                                <state key="normal" title="Click For Even More Info"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="117" y="285" width="180" height="30"/>
+                                </variation>
                                 <connections>
                                     <action selector="ChangetoBorderlands:" destination="hmX-uW-feq" eventType="touchUpInside" id="Wkn-EX-iWN"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gordonRamsay" translatesAutoresizingMaskIntoConstraints="NO" id="kgz-yp-o0g">
+                                <rect key="frame" x="150" y="348" width="301" height="167"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="57" y="344" width="301" height="167"/>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g3u-6b-BH8">
+                                <rect key="frame" x="120" y="28" width="361" height="187"/>
+                                <string key="text">Gordon Ramsay is my favorite chef. I binge watch his tv show kitchen nightmares and enjoy his creative insults. I'm 100% sure my household is fed up with me useful of the dvr for every appearance of him. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="27" y="43" width="361" height="187"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.89668823590268365" blue="0.28126663456975143" alpha="0.67000000000000004" colorSpace="calibratedRGB"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <segue destination="y10-iZ-wgs" kind="presentation" identifier="To BorderLands" id="yLE-cu-hmA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ben-QC-nBc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-186" y="-4"/>
+            <point key="canvasLocation" x="-170" y="199.5"/>
         </scene>
         <!--About Me-->
         <scene sceneID="tne-QT-ifu">
@@ -78,18 +118,52 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hLC-FJ-i7q">
-                                <rect key="frame" x="277" y="285" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="123" y="285" width="354" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Click To Know More About Me"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="30" y="280" width="354" height="30"/>
+                                </variation>
                                 <connections>
                                     <action selector="goToRamsay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3g5-AF-3x6"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="8df2d3ed-c150-4dfb-a066-eabdf35f2b97" translatesAutoresizingMaskIntoConstraints="NO" id="2QO-DR-tGA">
+                                <rect key="frame" x="231" y="139" width="138" height="92"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="138" y="129" width="138" height="92"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P8h-5X-y67">
+                                <rect key="frame" x="0.0" y="570" width="63" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="7"/>
+                                <state key="normal" title="Friends"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="25" y="329" width="63" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="toSecret:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CNA-Ai-gcC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HnW-di-jHd">
+                                <rect key="frame" x="497" y="562" width="103" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="6"/>
+                                <state key="normal" title="Click Me For a Random Color"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="281" y="329" width="103" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="ChangeColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XCf-zI-zIO"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.29460181164422439" blue="0.0" alpha="0.87" colorSpace="calibratedRGB"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <outlet property="aboutMeToRamsayButton" destination="hLC-FJ-i7q" id="WWa-eA-Vgl"/>
                         <segue destination="hmX-uW-feq" kind="presentation" identifier="To Gordan Ramsay" id="HEO-s0-3S1"/>
+                        <segue destination="hKs-WU-6Js" kind="presentation" identifier="To Secret" id="coc-Gn-jk3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -109,24 +183,101 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F2b-ZW-gHm">
-                                <rect key="frame" x="277" y="285" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="193" y="285" width="215" height="30"/>
+                                <state key="normal" title="Click to Go Back To Home"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="100" y="292" width="215" height="30"/>
+                                </variation>
                                 <connections>
                                     <action selector="ToHome:" destination="thI-ZV-Qyn" eventType="touchUpInside" id="yBc-4M-2HV"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="boondocks" translatesAutoresizingMaskIntoConstraints="NO" id="fTe-Us-dNz">
+                                <rect key="frame" x="146" y="360" width="274" height="154"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="70" y="396" width="274" height="154"/>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tp1-E6-hvV">
+                                <rect key="frame" x="135" y="60" width="331" height="184"/>
+                                <string key="text">The boondocks is my favorite cartoon, It details the lives of 2 "Gangster" children in a rich neighborhood. They get into all kinds of trouble and wreak havoc on their town.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="42" y="71" width="331" height="184"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="0.56000000000000005" colorSpace="calibratedRGB"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="popoverPresentation" identifier="To Home" id="pXQ-mY-4nO">
-                            <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                        </segue>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="To Home" id="4fW-Oe-SyP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RnM-MD-71A" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="536" y="771"/>
+            <point key="canvasLocation" x="319" y="789"/>
+        </scene>
+        <!--Secret Screen-->
+        <scene sceneID="7hf-re-4HD">
+            <objects>
+                <viewController title="Secret Screen" id="hKs-WU-6Js" customClass="FriendsViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4jS-4n-HFB"/>
+                        <viewControllerLayoutGuide type="bottom" id="h6R-A0-xc6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NdA-PW-eyX">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Gravestones" translatesAutoresizingMaskIntoConstraints="NO" id="Hwg-Rt-q1q">
+                                <rect key="frame" x="180" y="80" width="240" height="128"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="109" y="92" width="240" height="128"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ARb-YN-7wU">
+                                <rect key="frame" x="203" y="285" width="194" height="30"/>
+                                <state key="normal" title="Back To Home"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="132" y="291" width="194" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="toHome:" destination="hKs-WU-6Js" eventType="touchUpInside" id="LC0-Lq-pR1"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="All my Friends are DEAD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ct7-XW-z8Z">
+                                <rect key="frame" x="184" y="435" width="187" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="132" y="431" width="187" height="21"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.43529412150382996" blue="0.81176471710205078" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="to Home" id="1Jc-x6-Ibh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nzd-0y-Agg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="766" y="444.75"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="8df2d3ed-c150-4dfb-a066-eabdf35f2b97" width="140" height="140"/>
+        <image name="Gravestones" width="900" height="605"/>
+        <image name="boondocks" width="500" height="282"/>
+        <image name="borderlands" width="982" height="453"/>
+        <image name="gordonRamsay" width="476" height="476"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="1Jc-x6-Ibh"/>
+    </inferredMetricsTieBreakers>
 </document>
